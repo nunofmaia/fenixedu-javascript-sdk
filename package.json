@@ -1,0 +1,36 @@
+{
+  "name": "fenixedu-javascript",
+  "version": "0.1.0",
+  "description": "FenixEdu SDK for NodeJS",
+  "keywords": [
+    "fenix",
+    "fenixedu",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nunofmaia/fenixedu-javascript-sdk.git"
+  },
+  "author": {
+    "name": "Nuno Maia",
+    "email": "nunofmaia@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Hugo Correia",
+      "email": "hfcorreia@gmail.com"
+    },
+    {
+      "name": "Miguel Borges",
+      "email": "mb.borgez@gmail.com"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.31.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
