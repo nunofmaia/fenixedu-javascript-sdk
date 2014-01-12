@@ -30,7 +30,8 @@
     "request": "~2.31.0"
   },
   "devDependencies": {},
+  "license": "MIT",
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.8.0"
   }
 }
