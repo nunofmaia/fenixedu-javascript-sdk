@@ -25,11 +25,12 @@
       "email": "mb.borgez@gmail.com"
     }
   ],
-  "main": "index.js",
+  "main": "./lib/fenix.js",
   "dependencies": {
     "request": "~2.31.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 0.8.0"
