@@ -1,0 +1,8 @@
+{
+	"name": "fenixedu-javascript-sdk-example",
+	"version": "0.0.0",
+	"dependencies": {
+		"express": "3.x",
+		"jade": "*"
+	}
+}
