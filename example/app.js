@@ -19,8 +19,8 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 fenix.config({
-	clientId: 'INSERT YOUR APP ID',
-	clientSecret: 'INSERT YOUR APP SECRET',
+	clientId: 'YOUR APP ID',
+	clientSecret: 'YOUR APP SECRET',
 	callbackUrl: 'http://localhost:3000/auth/fenix/callback' // callbackUrl has to be the same specified in the app
 });
 
@@ -31,7 +31,7 @@ app.get('/', function (req, res) {
 
 app.get('/auth/fenix', function (req, res) {
 	'use strict';
-	res.redirect(fenix.authURL);
+	res.redirect(fenix.authURL());
 });
 app.get('/auth/fenix/callback', function (req, res) {
 	'use strict';
